@@ -11,7 +11,7 @@ conn = mysql.connector.connect(
 cursor = conn.cursor()
 
 # Create a new database
-database_name = "blog"
+database_name = "movies"
 cursor.execute(f"CREATE DATABASE IF NOT EXISTS {database_name}")
 
 print(f"Database {database_name} created successfully!")
